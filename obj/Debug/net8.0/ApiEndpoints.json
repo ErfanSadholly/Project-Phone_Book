@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "phoneBook",
-        "Type": "Web_Api.Class.PhoneBook",
+        "Name": "dtoUpdate",
+        "Type": "Web_Api.DBModel.DtoUpdate",
         "IsRequired": true
       }
     ],
@@ -73,7 +73,7 @@
   },
   {
     "ContainingType": "Web_Api.Controllers.ContactsController",
-    "Method": "PutPhoneBook",
+    "Method": "DtoUpdate",
     "RelativePath": "api/Contacts/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -85,8 +85,8 @@
         "IsRequired": true
       },
       {
-        "Name": "phoneBook",
-        "Type": "Web_Api.Class.PhoneBook",
+        "Name": "dtoUpdate",
+        "Type": "Web_Api.DBModel.DtoUpdate",
         "IsRequired": true
       }
     ],
